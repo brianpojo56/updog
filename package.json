@@ -4,7 +4,7 @@
   "description": "What's updog?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "postinstall": "echo What\\'s up, dog?"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wildlyinaccurate/updog/issues"
   },
-  "homepage": "https://github.com/wildlyinaccurate/updog#readme"
+  "homepage": "https://github.com/wildlyinaccurate/updog#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
 }
